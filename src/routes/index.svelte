@@ -1,4 +1,5 @@
 <script>
+	import Title from '$lib/title.svelte';
 	let title = 'Ninja Gaming Guides';
 
 	const updateTitle = () => {
@@ -6,6 +7,7 @@
 	};
 </script>
 
+<Title {title} />
 <div class="index">
 	<h2>Welcome</h2>
 	<p>
@@ -17,8 +19,8 @@
 		cupiditate aliquid quam magni. Laudantium, laboriosam quibusdam. Provident,
 		quae incidunt! Aspernatur, vel?
 	</p>
-  <a href="/guides">View Guides</a>
-  <a href="/about">About</a>
+	<a href="/guides">View Guides</a>
+	<a href="/about">About</a>
 
 	<button on:click={updateTitle}>change title</button>
 	<input type="text" bind:value={title} />
