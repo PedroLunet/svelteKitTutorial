@@ -1,6 +1,6 @@
 <script>
 	export let title = 'Pedro Lunet';
-  import "../styles/global.css";
+	import '../styles/global.css';
 </script>
 
 <div class="title">
@@ -11,7 +11,9 @@
 <style>
 	.title {
 		text-align: center;
-		margin: 20px auto;
+		margin: 0;
+		display: flex;
+		gap: 40px;
 	}
 
 	h1 {
