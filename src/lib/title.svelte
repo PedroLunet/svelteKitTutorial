@@ -1,5 +1,6 @@
 <script>
 	export let title = 'Pedro Lunet';
+  import "../styles/global.css";
 </script>
 
 <div class="title">
@@ -15,7 +16,6 @@
 
 	h1 {
 		font-size: 2.5em;
-		color: #333;
 	}
 	img {
 		width: 100px;
